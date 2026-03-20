@@ -50,7 +50,9 @@ BDH follows **Transformer-like scaling laws**, maintaining parameter efficiency 
 
 ***
 
-## Sudoku Benchmark
+## Latest research update: Sudoku Benchmark
+
+Note: The Sudoku Extreme result refers to Pathway’s internal BDH implementation, not to the current open-source repository. This repository contains the implementation of the baseline variant as described in our [public paper](https://arxiv.org/abs/2509.26507) and does not reproduce the 97.4% benchmark result out of the box. See the dedicated Extreme Sudoku research blog post for additional benchmark context and the reported results.
 
 On Sudoku Extreme, BDH reaches 97.4% accuracy across roughly 250,000 difficult puzzles, without chain-of-thought, solution backtracking, or external tool use, while leading LLMs struggle to perform on the benchmark at all.
 
